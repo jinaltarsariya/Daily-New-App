@@ -95,7 +95,7 @@ const News = ({
         <div className="row g-5">
           {articles.map((ele) => {
             return (
-              <div className="col-md-4" key={ele.url}>
+              <div className="col-lg-4 col-md-6 col-sm-12" key={ele.url}>
                 <NewsItems
                   mode={mode}
                   img={
